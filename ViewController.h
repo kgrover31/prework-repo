@@ -11,10 +11,10 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *billTextField;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipSegment;
-@property (weak, nonatomic) IBOutlet UILabel *addtip;
 @property (weak, nonatomic) IBOutlet UITextField *tipTextField;
-@property (weak, nonatomic) IBOutlet UILabel *equalAmt;
 @property (weak, nonatomic) IBOutlet UITextField *totalTextField;
-@property (strong, nonatomic) IBOutlet UIView *mainview;
+@property (weak, nonatomic) IBOutlet UILabel *addTip;
+@property (weak, nonatomic) IBOutlet UILabel *equalAmt;
 - (IBAction)tipPercentSelect:(id)sender;
+
 @end
